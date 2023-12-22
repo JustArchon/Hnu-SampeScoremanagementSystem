@@ -3448,31 +3448,31 @@ namespace Homework4
                                                         {
                                                             (item as Assistant).Pirnt_All_Moment();
                                                             check = true;
-                                                            Console.WriteLine("변경할 교직원 이름을 입력하여 주십시오. 공백으로 둘시 변경하지 않습니다.");
+                                                            Console.WriteLine("변경할 조교 이름을 입력하여 주십시오. 공백으로 둘시 변경하지 않습니다.");
                                                             inputstring = Console.ReadLine();
                                                             if (inputstring != "")
                                                             {
                                                                 item.name = inputstring;
                                                             }
-                                                            Console.WriteLine("변경할 교직원 사번을 입력하여 주십시오. 공백으로 둘시 변경하지 않습니다.");
+                                                            Console.WriteLine("변경할 조교 사번을 입력하여 주십시오. 공백으로 둘시 변경하지 않습니다.");
                                                             inputstring = Console.ReadLine();
                                                             if (inputstring != "")
                                                             {
                                                                 (item as Assistant).businessnumber = inputstring;
                                                             }
-                                                            Console.WriteLine("변경할 교직원 전화번호를 입력하여 주십시오. 공백으로 둘시 변경하지 않습니다.");
+                                                            Console.WriteLine("변경할 조교 전화번호를 입력하여 주십시오. 공백으로 둘시 변경하지 않습니다.");
                                                             inputstring = Console.ReadLine();
                                                             if (inputstring != "")
                                                             {
                                                                 item.phonenumber = inputstring;
                                                             }
-                                                            Console.WriteLine("변경할 교직원 이메일을 입력하여 주십시오. 공백으로 둘시 변경하지 않습니다.");
+                                                            Console.WriteLine("변경할 조교 이메일을 입력하여 주십시오. 공백으로 둘시 변경하지 않습니다.");
                                                             inputstring = Console.ReadLine();
                                                             if (inputstring != "")
                                                             {
                                                                 item.email = inputstring;
                                                             }
-                                                            Console.WriteLine("변경할 교직원 학과를 입력하여 주십시오. 공백으로 두거나 혹은 없는 학과일시 변경하지 않습니다.");
+                                                            Console.WriteLine("변경할 조교 학과를 입력하여 주십시오. 공백으로 두거나 혹은 없는 학과일시 변경하지 않습니다.");
                                                             inputstring = Console.ReadLine();
                                                             if (inputstring != "")
                                                             {
